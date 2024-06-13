@@ -3,6 +3,7 @@ public class SmartTV {
     int canal = 1;
     int volume = 25;
 
+    // caracteristicas a nivel declasse
     public void ligar(){
         ligada = true;
     }
@@ -17,6 +18,7 @@ public class SmartTV {
         canal--;
     }
     public void mudarCanal(int novoCanal){
+        //novoCanal é uma varivel disponível apenas nesse bloco de código, pois ela vem como parâmetro
         canal = novoCanal;
     }
 
